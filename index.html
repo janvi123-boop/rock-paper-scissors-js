@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SCISSOR SMASH</title>
+</head>
+<body>
+    <div class=" h-screen mx-auto justify-center items-center ">
+        <button class="btn bg-purple-500">dark mode</button>
+        <h1 class="text-center text-4xl">ROCK PAPER SCISSORS GAME</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <img src="rock.png" class ="h-32.5 mx-auto hover:scale-110 transition">
+            <img src="paper.png"class ="h-32.5  mx-auto hover:scale-110 transition ">
+            <img src="scissors.png" class="h-32.5 mx-auto hover:scale-105 transition">
+            <button class="bg-[#CAA2F0] p-2 rounded hover:scale-110 transition"id="rock">Rock</button>
+            <button class="bg-[#79a7ff] p-2 rounded hover:scale-110 transition "id="paper">Paper</button>
+            <button class="bg-[#FF8DA1] p-2 rounded hover:scale-110 transition "id="scissors">Scissors</button>
+        </div>
+        <div class="grid grid-cols-2 gap-x-0 place-items-center" > 
+            <h2 class="u text-2xl">0</h2>
+            <h2 class="opp text-2xl">0</h2>
+            <h2 class="text-2xl">You</h2>
+            <h2 class ="text-2xl">Computer</h2>
+        </div>
+        <br></br>
+        <div class= "flex justify-center gap-3">
+            <button  class= "bg-gray-500 text-white text-2xl " id="ans">Choose your weapon</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
