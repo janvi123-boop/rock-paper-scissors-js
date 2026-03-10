@@ -9,12 +9,13 @@
 <body>
     <div class=" h-screen mx-auto justify-center items-center ">
         <button class="btn bg-purple-500">dark mode</button>
+        <button class="bg-blue-500"id="reset">reset</button>
         <h1 class="text-center text-4xl">ROCK PAPER SCISSORS GAME</h1>
         <br></br>
         <div class="grid grid-cols-3 gap-4">
-            <img src="rock.png" class ="h-32.5 mx-auto hover:scale-110 transition">
-            <img src="paper.png"class ="h-32.5  mx-auto hover:scale-110 transition ">
-            <img src="scissors.png" class="h-32.5 mx-auto hover:scale-105 transition">
+            <img src="rock.png" class ="h-32.5 mx-auto">
+            <img src="paper.png"class ="h-32.5  mx-auto">
+            <img src="scissors.png" class="h-32.5 mx-auto">
             <button class="bg-[#CAA2F0] p-2 rounded hover:scale-110 transition"id="rock">Rock</button>
             <button class="bg-[#79a7ff] p-2 rounded hover:scale-110 transition "id="paper">Paper</button>
             <button class="bg-[#FF8DA1] p-2 rounded hover:scale-110 transition "id="scissors">Scissors</button>
@@ -26,8 +27,12 @@
             <h2 class ="text-2xl">Computer</h2>
         </div>
         <br></br>
-        <div class= "flex justify-center gap-3">
-            <button  class= "bg-gray-500 text-white text-2xl " id="ans">Choose your weapon</button>
+        <div class= "flex flex-col items-center justify-center text-center">
+            <div class= " text-2xl "id="choice"></div>
+            <br></br>
+            <button  class= " text-2xl " id="ans">Choose your weapon</button>
+            <br></br>
+            <div class="text-2xl "id="win"></div>
     </div>
     <script src="script.js"></script>
 </body>
