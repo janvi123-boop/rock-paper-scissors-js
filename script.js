@@ -29,6 +29,7 @@ rock.addEventListener("click",()=>{
     }
     u.innerText=m;
     opp.innerText=n;
+    sound.play();
 })
 let paper =document.querySelector("#paper");
 paper.addEventListener("click",()=>{
@@ -53,6 +54,7 @@ paper.addEventListener("click",()=>{
     }
     u.innerText=m;
     opp.innerText=n;
+    sound.play();
 
 })
 let scissors =document.querySelector("#scissors");
@@ -78,6 +80,7 @@ scissors.addEventListener("click",()=>{
     }
     u.innerText=m;
     opp.innerText=n;
+    sound.play();
 })
 let btn=document.querySelector(".btn");
 let body=document.querySelector("body");
@@ -104,3 +107,4 @@ reset.addEventListener("click",()=>{
     m=0;
     n=0;
 })
+let sound=document.querySelector("#sound");
