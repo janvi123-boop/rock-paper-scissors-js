@@ -101,4 +101,6 @@ reset.addEventListener("click",()=>{
     ans.innerText="Choose your weapon";
     choice.innerText="  ";
     win.innerText=" ";
+    m=0;
+    n=0;
 })
